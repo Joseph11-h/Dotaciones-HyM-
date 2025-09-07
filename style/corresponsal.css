@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+header{
+    height: 25vh;
+}
+.bloque1{
+    display: flex;
+    padding: 10px;
+}
+.navbar-toggler{
+    
+    margin-top: 0;
+}
+.cajita{
+    width: 35%;
+    display: flex;
+}
+.logo{
+    width: 260px;
+    height: 115px;
+    display: flex;  
+}
+.logo>img{
+    width: 90px;
+    height: 100px;
+    margin-top: 5px;
+}
+.logo>p{
+    font-style: italic;
+    font-display:swap;
+}
+
+.logo > p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navbar-toggler{
+    display: none;
+}
+
+.servicios{
+    width: 300px;
+    margin-right: 40px;
+}
+
+
+.servicios:hover{
+   color: rgb(255, 1, 1) ;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    margin-top: 25vh;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(59, 56, 56);
+}
+footer > section > a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: 1px solud white;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+}
+.img{
+    width: 45px;
+}
+.informacion > p{
+    text-align: left;
+}
+@media (max-width:740px) {
+    .navbar-toggler{
+        display: flex;
+    }
+    .bloque2{
+        display: none;
+    }
+  }

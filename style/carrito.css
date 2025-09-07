@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+header{
+    height: 25vh;
+}
+.bloque1{
+    display: flex;
+    padding: 10px;
+}
+.navbar-toggler{
+    
+    margin-top: 0;
+}
+.cajita{
+    width: 35%;
+    display: flex;
+}
+.logo{
+    width: 260px;
+    height: 115px;
+    display: flex;  
+}
+.logo>img{
+    width: 90px;
+    height: 100px;
+    margin-top: 5px;
+}
+.logo>p{
+    font-style: italic;
+    font-display:swap;
+}
+
+.logo > p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.navbar-toggler{
+    display: none;
+}
+
+.servicios{
+    width: 300px;
+    margin-right: 40px;
+}
+
+
+.servicios:hover{
+   color: rgb(255, 1, 1) ;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.main{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+.carrito {
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .producto {
+    display: flex;
+    align-items: center;
+    background: #ffbf48;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .producto img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  .info {
+    flex: 1;
+  }
+  .info h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  .info p {
+    margin: 5px 0;
+    font-size: 13px;
+    color: #555;
+  }
+  .precio-unitario {
+    font-size: 13px;
+    color: #666;
+  }
+  .cantidad {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .cantidad button {
+    background: #ddd;
+    border: none;
+    padding: 3px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .cantidad span {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+  .subtotal {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  .eliminar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  #total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  #boton {
+    background: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #boton:hover {
+    background: orangered;
+  }
+footer{
+    color: white;
+    background-color: rgb(59, 56, 56);
+}
+footer > section > a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: 1px solud white;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+}
+.img{
+    width: 45px;
+}
+.informacion > p{
+    text-align: left;
+}
+@media (max-width:740px) {
+    .navbar-toggler{
+        display: flex;
+    }
+    .bloque2{
+        display: none;
+    }
+    .carrito{
+        width: 100%;
+    }
+  }
