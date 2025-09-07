@@ -156,7 +156,7 @@
             </p>
         </section>
     </footer>
-    <script src="/js/finisher-header.es5.min.js" type="text/javascript"></script>
+    <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         new FinisherHeader({
             "count": 6,
@@ -207,12 +207,10 @@
                 pagoTarjeta.classList.add("d-none");
             }
         });
-
-        // Procesar pago
         document.getElementById("formPago").addEventListener("submit", function (e) {
             e.preventDefault();
             document.getElementById("mensaje").classList.remove("d-none");
-            localStorage.removeItem("carrito"); // Limpia carrito después de pagar
+            localStorage.removeItem("carrito");
         });
     </script>
 </body>
